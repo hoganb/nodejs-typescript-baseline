@@ -1,2 +1,2 @@
 # nodejs-typescript-baseline
-Node.js TypeScript baseline project setup
+Node.js TypeScript baseline project setup [nodejs, typescript, baseline]
