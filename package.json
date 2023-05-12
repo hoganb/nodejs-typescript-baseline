@@ -9,7 +9,8 @@
     "lint:fix": "eslint --ext ts src test --fix && prettier --write .",
     "test": "npm run test:unit",
     "test:mutation": "stryker run",
-    "test:unit": "jest --config ./jest.config.js --runInBand"
+    "test:unit": "jest --config ./jest.config.js --runInBand",
+    "test:unit:watch": "jest --config ./jest.config.js --runInBand --watchAll"
   },
   "dependencies": {
     "tslib": "^2.4.1"
