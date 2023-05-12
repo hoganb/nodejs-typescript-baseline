@@ -5,7 +5,6 @@ module.exports = {
   transform: {
     '^.+\\.(t|j)s$': 'ts-jest',
   },
-  transformIgnorePatterns: ['node_modules/(?!@got/dist/source)/'],
   globals: {
     'ts-jest': {
       isolatedModules: true,
