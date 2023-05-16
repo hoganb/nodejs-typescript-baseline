@@ -35,4 +35,5 @@ module.exports = {
   },
   collectCoverageFrom: ['./src/**/*.ts'],
   coverageDirectory: './reports/jest-unit-coverage',
+  clearMocks: true,
 };
