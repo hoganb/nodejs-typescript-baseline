@@ -6,7 +6,7 @@ Node.js TypeScript baseline reference project setup
 
 - `npm ci`: Clean install
 - `npm run clean`: Clean project
-- `npm run build`: Build and compile project
+- `npm run build`: Compile, bundle and minify project
 - `npm run lint`: Code quality check
 - `npm run lint:fix`: Code quality fixes
 - `npm test`: Run unit tests
@@ -15,7 +15,8 @@ Node.js TypeScript baseline reference project setup
 # Features
 
 - **Node.js**: Runtime `"node": "^16.0.0"` and `"npm": "^8.5.1"`
-- **TypeScript**: Code transpiled to JavaScript `"^4.9.3"`s
+- **TypeScript**: Code type checked and transpiled to JavaScript `"^4.9.3"`
+- **Esbuild**: Code bundled and minified with source maps for debugging
 - **Linting**: Code quality using `eslint`, `prettier` and `cspell`
 - **Jest**: Test runner solution
 - **Stryker**: Mutation tests test unit tests against the code

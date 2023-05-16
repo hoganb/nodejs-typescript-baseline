@@ -4,6 +4,7 @@
 /.awcache
 /reports
 /logs
+/dist
 .env
 *.tsbuildinfo
 
