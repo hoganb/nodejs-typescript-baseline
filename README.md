@@ -18,7 +18,7 @@ Node.js TypeScript baseline reference project setup
 - **TypeScript**: Code type checked and transpiled to JavaScript `"^4.9.3"`
 - **Esbuild**: Code bundled and minified with source maps for debugging
 - **Linting**: Code quality using `eslint`, `prettier` and `cspell`
-- **Jest**: Test runner solution
+- **Jest**: Test runner solution using `@swc/jest` transformer
 - **Stryker**: Mutation tests test unit tests against the code
 - **GitHub Actions**: CI pipeline integration to `build`, `lint` and `test` code
 - **Miscellaneous**

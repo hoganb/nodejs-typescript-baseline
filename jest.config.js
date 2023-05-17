@@ -3,13 +3,7 @@ module.exports = {
   rootDir: '.',
   testEnvironment: 'node',
   transform: {
-    '^.+\\.(t|j)s$': 'ts-jest',
-  },
-  globals: {
-    'ts-jest': {
-      isolatedModules: true,
-      tsconfig: 'tsconfig.json',
-    },
+    '^.+\\.(t|j)s$': '@swc/jest',
   },
   testMatch: ['<rootDir>/test/**/*.test.ts'],
   reporters: [
