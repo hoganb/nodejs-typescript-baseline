@@ -11,11 +11,19 @@ Node.js TypeScript baseline reference project setup
 - `npm run lint:fix`: Code quality fixes
 - `npm test`: Run unit tests
 - `npm run test:mutation`: Run mutation tests
+- `npm run test:unit:watch`: Run unit tests in watch mode
+- `npm run updates:check`: Check dependency updates grouped by major.minor.patch
+- `npm run updates:upgrade`: Upgrades dependencies grouped by major.minor.patch
+
+**NOTE**: For `npm run updates:*` commands; can control the versions by passing `-- --target <patch|minor|major>` flag, for example:
+
+- To only check/upgrade `minor` versions then use `npm run updates:check -- --target minor`
 
 # Features
 
-- **Node.js**: Runtime `"node": "^16.0.0"` and `"npm": "^8.5.1"`
-- **TypeScript**: Code type checked and transpiled to JavaScript `"^4.9.3"`
+- **Node.js**: Runtime `"node": "^18.0.0"` and `"npm": "^9.5.0"`
+- **TypeScript**: Code type checked and transpiled to JavaScript `"^5.1.3"`
+- **Dependency updates**: Check and upgrade achieved using `npm-check-updates`
 - **Esbuild**: Code bundled and minified with source maps for debugging
 - **Linting**: Code quality using `eslint`, `prettier` and `cspell`
 - **Jest**: Test runner solution using `@swc/jest` transformer
