@@ -3,5 +3,6 @@
   "editor.formatOnSave": true,
   "prettier.requireConfig": true,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "jest.jestCommandLine": "./node_modules/.bin/jest --config ./jest.config.js --colors"
+  "jest.jestCommandLine": "./node_modules/.bin/jest --config ./jest.config.js --colors",
+  "conventionalCommits.scopes": ["all"]
 }
