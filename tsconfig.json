@@ -18,9 +18,11 @@
     // Other options
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "incremental": true,
     "isolatedModules": true,
