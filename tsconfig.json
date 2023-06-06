@@ -1,28 +1,29 @@
 {
-  "include": ["src/**/*.ts", "test/**/*.ts"],
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "./",
-    "declaration": true,
-    "esModuleInterop": true,
-    "importHelpers": true,
-    "incremental": true,
-    "noEmit": true,
-    "lib": ["DOM", "ES2020"],
-    "module": "commonjs",
-    "noImplicitAny": true,
+    // Modules, language and environment
+    "module": "Node16",
+    "target": "ES2022",
+    "resolveJsonModule": true,
+    "types": ["node", "jest"],
+
+    // Type checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "removeComments": true,
-    "resolveJsonModule": true,
-    "allowJs": true,
-    "rootDir": ".",
-    "sourceMap": true,
-    "target": "ES2020",
     "strict": true,
-    "typeRoots": ["node_modules/@types"],
-    "types": ["node", "jest"]
-  }
+
+    // Other options
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "incremental": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"]
 }
