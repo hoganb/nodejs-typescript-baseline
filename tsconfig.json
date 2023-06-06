@@ -23,6 +23,7 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "incremental": true,
+    "isolatedModules": true,
     "noEmit": true
   },
   "include": ["src/**/*.ts", "test/**/*.ts"]
