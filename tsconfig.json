@@ -28,7 +28,8 @@
     "importHelpers": true,
     "incremental": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "skipLibCheck": true
   },
   "exclude": ["dist", "node_modules", "**/*.d.ts"],
   "include": ["src/**/*.ts", "test/**/*.ts"]
