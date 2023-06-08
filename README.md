@@ -45,6 +45,10 @@ Node.js TypeScript baseline reference project setup
 │   └── index.ts        # Unit test code
 │
 │── ...
+├── .cspell.json        # CSpell config file
+├── .editorconfig       # Editor config file
+├── .eslintrc.json      # Eslint config file
+├── .prettierrc.json    # Prettier config file
 ├── jest.config.js      # Jest config file
 ├── package.json        # Package json file
 ├── stryker.conf.json   # Stryker config file
