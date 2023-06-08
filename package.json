@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm-run-all --parallel build:ts build:es",
     "build:ts": "tsc",
-    "build:es": "esbuild src/index.ts --bundle --platform=node --target=node18 --outdir=dist --minify --sourcemap",
+    "build:es": "rimraf dist && esbuild src/index.ts --bundle --platform=node --target=node18 --outdir=dist --minify --sourcemap",
     "clean": "rimraf dist node_modules reports tsconfig.tsbuildinfo stryker-tmp logs",
     "format": "prettier --check . && cspell \"**\" --dot --exclude .git --gitignore --no-progress",
     "format:fix": "prettier --write .",
