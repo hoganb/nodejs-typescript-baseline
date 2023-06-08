@@ -5,10 +5,12 @@ Node.js TypeScript baseline reference project setup
 # Scripts
 
 - `npm ci`: Clean install
-- `npm run clean`: Clean project
-- `npm run build`: Compile, bundle and minify project
-- `npm run lint`: Code quality check
+- `npm run clean`: Full clean ready for `npm ci`
+- `npm run format`: Code format and spell check
+- `npm run format:fix`: Code format and spell check fixes
+- `npm run lint`: Code quality checks
 - `npm run lint:fix`: Code quality fixes
+- `npm run build`: Type check, compile, bundle and minify
 - `npm test`: Run unit tests
 - `npm run test:mutation`: Run mutation tests
 - `npm run test:unit:watch`: Run unit tests in watch mode
@@ -22,10 +24,11 @@ Node.js TypeScript baseline reference project setup
 # Features
 
 - **Node.js**: Runtime `"node": "^18.0.0"` and `"npm": "^9.5.0"`
-- **TypeScript**: Code type checked and transpiled to JavaScript `"^5.1.3"`
+- **Formatting**: Code format rules checked and fixed using `prettier` and spell checked with `cspell`
+- **Linting**: Code quality rules checked and fixed using `eslint`
+- **TypeScript**: Code type checked and transpiled to JavaScript using `tsc`
+- **Esbuild**: Code transpiled to JavaScript, bundled and minified with source maps for debugging using `esbuild`
 - **Dependency updates**: Check and upgrade achieved using `npm-check-updates`
-- **Esbuild**: Code bundled and minified with source maps for debugging
-- **Linting**: Code quality using `eslint`, `prettier` and `cspell`
 - **Jest**: Test runner solution using `@swc/jest` transformer
 - **Stryker**: Mutation tests test unit tests against the code
 - **GitHub Actions**: CI pipeline integration to `build`, `lint` and `test` code
