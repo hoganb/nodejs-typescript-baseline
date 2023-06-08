@@ -1,8 +1,12 @@
 {
+  "conventionalCommits.scopes": ["all"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
   "prettier.requireConfig": true,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "jest.jestCommandLine": "./node_modules/.bin/jest --config ./jest.config.js --colors",
-  "conventionalCommits.scopes": ["all"]
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
