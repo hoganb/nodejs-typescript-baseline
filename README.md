@@ -1,5 +1,25 @@
 # nodejs-typescript-baseline
 
+<p align="center">
+  <a href="https://nodejs.org/dist/latest-v18.x/docs/api/"><img alt="Node.js version" src="https://img.shields.io/badge/node.js-v18.x.x-green"></a>
+  <a href="https://docs.npmjs.com/cli/v9"><img alt="npm version" src="https://img.shields.io/badge/npm-v9.x.x-red"></a>
+  <a href=""><img alt="TypeScript version" src="https://img.shields.io/badge/TypeScript-v5.x.x-blue"></a>
+  <a href=""><img alt="CI/CD GitHub Actions" src="https://img.shields.io/badge/CI/CD-GitHub_Actions-4b83f3"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/prettier/prettier"><img alt="code format: prettier" src="https://img.shields.io/badge/code_format-prettier-ff69b4"></a>
+  <a href="https://github.com/eslint/eslint"><img alt="code quality: eslint" src="https://img.shields.io/badge/code_quality-eslint-9a19e0"></a>
+  <a href="https://github.com/Microsoft/TypeScript"><img alt="type check: tsc" src="https://img.shields.io/badge/type_check-tsc-blue"></a>
+  <a href="https://github.com/evanw/esbuild"><img alt="build: esbuild" src="https://img.shields.io/badge/build-esbuild-f5d135"></a>
+  <a href="https://github.com/jestjs/jest"><img alt="test: jest" src="https://img.shields.io/badge/test-jest-8c474f"></a>
+  <a href="https://github.com/stryker-mutator/stryker-js"><img alt="test: jest" src="https://img.shields.io/badge/mutation-stryker-d15b3f"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/hoganb/nodejs-typescript-baseline/actions/workflows/ci.yml"><img alt="ci" src="https://github.com/hoganb/nodejs-typescript-baseline/actions/workflows/ci.yml/badge.svg"></a>
+</p>
+
 Node.js TypeScript baseline reference project setup
 
 # Scripts
