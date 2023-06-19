@@ -9,7 +9,7 @@
     "clean": "rimraf dist node_modules reports tsconfig.tsbuildinfo stryker-tmp logs",
     "format": "prettier --check . && cspell \"**\" --dot --exclude .git --gitignore --no-progress",
     "format:fix": "prettier --write .",
-    "lint": "eslint src test --ext ts --max-warnings 0 --report-unused-disable-directives",
+    "lint": "eslint . --max-warnings 0 --report-unused-disable-directives",
     "lint:fix": "npm run lint -- --fix",
     "test": "npm run test:unit",
     "test:mutation": "stryker run",
